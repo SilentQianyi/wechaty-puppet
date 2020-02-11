@@ -1,6 +1,6 @@
 {
   "name": "wechaty-puppet",
-  "version": "0.17.20",
+  "version": "0.19.5",
   "description": "Abstract Puppet for Wechaty",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
@@ -14,7 +14,7 @@
     "lint": "npm run lint:es && npm run lint:ts && npm run lint:md",
     "lint:md": "markdownlint README.md",
     "lint:ts": "tsc --noEmit",
-    "lint:es": "eslint 'src/**/*.ts' 'tests/**/*.spec.ts' --ignore-pattern tests/fixtures/",
+    "lint:es": "eslint \"src/**/*.ts\" \"tests/**/*.spec.ts\" --ignore-pattern tests/fixtures/",
     "test": "npm run lint && npm run test:unit",
     "test:pack": "bash -x scripts/npm-pack-testing.sh",
     "test:unit": "blue-tape -r ts-node/register 'src/**/*.spec.ts' 'tests/**/*.spec.ts'",
@@ -46,7 +46,7 @@
     "@types/normalize-package-data": "^2.4.0",
     "@types/quick-lru": "^2.0.0",
     "@types/read-pkg-up": "^3.0.1",
-    "file-box": "^0.8.22",
+    "file-box": "^0.10.6",
     "memory-card": "^0.6.7",
     "pkg-jq": "^0.2.2",
     "shx": "^0.3.1",
@@ -56,7 +56,7 @@
   },
   "peerDependencies": {
     "memory-card": "^0.6.7",
-    "file-box": "^0.8.22"
+    "file-box": "^0.10.6"
   },
   "dependencies": {
     "brolog": "^1.6.5",

@@ -14,6 +14,7 @@ export {
   FriendshipPayloadVerify,
   FriendshipSearchQueryFilter,
   FriendshipType,
+  FriendshipSceneType,
 }                             from './schemas/friendship'
 export {
   MessagePayload,
@@ -48,7 +49,7 @@ export {
   PuppetRoomJoinEvent,
   PuppetRoomLeaveEvent,
   PuppetRoomTopicEvent,
-  Receiver,
+  // Receiver,
 
   CHAT_EVENT_DICT,
   PUPPET_EVENT_DICT,
